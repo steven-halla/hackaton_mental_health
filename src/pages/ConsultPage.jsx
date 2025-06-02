@@ -1,8 +1,8 @@
 import React from 'react';
 
-function ConsultPage() {
+export const ConsultPage = () => {
   const page = "Consult";
-  
+
   return (
     <>
       <div>
@@ -11,5 +11,3 @@ function ConsultPage() {
     </>
   )
 }
-
-export default ConsultPage;

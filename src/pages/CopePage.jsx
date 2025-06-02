@@ -1,8 +1,8 @@
 import React from 'react';
 
-function CopePage() {
+export const CopePage = () => {
   const page = "Cope";
-  
+
   return (
     <>
       <div>
@@ -11,5 +11,3 @@ function CopePage() {
     </>
   )
 }
-
-export default CopePage;

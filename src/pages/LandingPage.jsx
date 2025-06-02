@@ -1,8 +1,8 @@
 import React from 'react';
 
-function LandingPage() {
+export const LandingPage = () => {
   const page = "Landing";
-  
+
   return (
     <>
       <div>
@@ -11,5 +11,3 @@ function LandingPage() {
     </>
   )
 }
-
-export default LandingPage;

@@ -1,8 +1,8 @@
 import React from 'react';
 
-function BioPage() {
+export const BioPage = () => {
   const page = "Bio";
-  
+
   return (
     <>
       <div>
@@ -11,5 +11,3 @@ function BioPage() {
     </>
   )
 }
-
-export default BioPage;

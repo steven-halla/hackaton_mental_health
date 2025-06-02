@@ -1,8 +1,8 @@
 import React from 'react';
 
-function LoginPage() {
+export const LoginPage = () => {
   const page = "Log in";
-  
+
   return (
     <>
       <div>
@@ -11,5 +11,3 @@ function LoginPage() {
     </>
   )
 }
-
-export default LoginPage;

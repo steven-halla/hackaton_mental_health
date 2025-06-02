@@ -1,8 +1,8 @@
 import React from 'react';
 
-function LogoutPage() {
+export const LogoutPage = () => {
   const page = "Log out";
-  
+
   return (
     <>
       <div>
@@ -11,5 +11,3 @@ function LogoutPage() {
     </>
   )
 }
-
-export default LogoutPage;

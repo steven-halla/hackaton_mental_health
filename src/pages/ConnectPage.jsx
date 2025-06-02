@@ -1,8 +1,8 @@
 import React from 'react';
 
-function ConnectPage() {
+export const ConnectPage = () => {
   const page = "Connect";
-  
+
   return (
     <>
       <div>
@@ -11,5 +11,3 @@ function ConnectPage() {
     </>
   )
 }
-
-export default ConnectPage;

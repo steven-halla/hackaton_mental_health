@@ -1,8 +1,8 @@
 import React from 'react';
 
-function CreateAccountPage() {
+export const CreateAccountPage = () => {
   const page = "Create Account";
-  
+
   return (
     <>
       <div>
@@ -11,5 +11,3 @@ function CreateAccountPage() {
     </>
   )
 }
-
-export default CreateAccountPage;

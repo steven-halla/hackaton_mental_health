@@ -1,15 +1,13 @@
 import React from 'react';
 
-function CommunityPage() {
+export const CommunityPage = () => {
   const page = "Community";
-  
+
   return (
     <>
       <div>
-          <p>Hi there this is the: community page example</p>
+          <p>Hi there this is the: community {page} example</p>
       </div>
     </>
   )
 }
-
-export default CommunityPage;
